@@ -17,5 +17,7 @@ def fizz_buzz(num)
 
 end
 
+# ruby lib/fizz_buzz.rb 引数
+# で実行してください
 puts fizz_buzz(ARGV[0])
 

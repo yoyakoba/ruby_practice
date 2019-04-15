@@ -19,5 +19,5 @@ end
 
 # ruby lib/fizz_buzz.rb 引数
 # で実行してください
-puts fizz_buzz(ARGV[0])
+#puts fizz_buzz(ARGV[0])
 

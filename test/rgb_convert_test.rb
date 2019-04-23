@@ -3,8 +3,13 @@ require './lib/rgb_convert'
 
 class RgbConvertTest < Minitest::Test
   def test_to_hex
+    # 16進数部分が数字のみの場合
     assert_equal '#000000', to_hex(0, 0, 0)
+
+    # アルファベットのみ
     assert_equal '#ffffff', to_hex(255,255,255)
+    
+    # 数字、アルファベット混合
     assert_equal '#800f08', to_hex(128, 15, 8)
   end
 
